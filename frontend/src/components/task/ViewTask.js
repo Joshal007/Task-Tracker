@@ -5,8 +5,6 @@ import moment from 'moment';
 // Login.js
 import { useNavigate } from 'react-router-dom';
 
-// UpdateTask.js
-import { Switch } from 'react-router-dom';
 
 function Tasks({isAuthenticated, setIsAuthenticated}) {
 	const [todos, setTodos] = useState([]);
